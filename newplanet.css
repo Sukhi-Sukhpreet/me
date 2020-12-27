@@ -4,18 +4,14 @@ body {
 .Content{
     align-items: flex-start;
 }
-@font-face {
-    font-family: 'oswald';
-    src: url('ONEDAY/ONEDAY.ttf');
-}
 .Heading {
     font-size: 1000%;
     position: absolute;
     color: aqua;
-    top: -5vh;
+    top: -9vh;
     left: 0%;
     grid-row: 1;
-    font-family: 'oswald';
+    font-family: 'Fredoka One';
     font-weight: 900;
 }
 .para-1{
@@ -42,16 +38,16 @@ body {
     font-size: 3rem;
     max-width: 400px;
     left: 11%;
-    top: 280vh;
+    top: 285vh;
     color: lavenderblush;
     font-family: 'Fredoka One', cursive;
 }
 .para-4{
     position: absolute;
-    font-size: 3rem;
+    font-size: 2.5rem;
     max-width: 400px;
     left: 21%;
-    top: 400vh;
+    top: 410vh;
     color: lavenderblush;
     font-family: 'Fredoka One', cursive;
     padding-bottom: 20%;
@@ -70,8 +66,8 @@ body {
     height: 10rem;
 }
 #Solar2{
-    top: 180%;
-    left: 30%;
+    top: 310vh;
+    left: 60%;
     transform: translate(-150%, -20%);
     display: flex;
     width: 10rem;
@@ -79,7 +75,7 @@ body {
 }
 #Solar3{
     top: 280%;
-    left: 30%;
+    left: 5%;
     transform: translate(-50%, -50%);
     display: flex;
     width: 10rem;
@@ -101,23 +97,23 @@ body {
 }
 #Sun1{
     background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(0,255,255) 100%);
-    box-shadow: 0rem 0rem 50px rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(25,155,250,1,0.1) 50%, rgba(250,255,255,0.1) 100%);
+    box-shadow: 0rem 0rem 50px rgb(2, 255, 242);
 }
 #Sun2{
     background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(25,155,250,1) 50%, rgba(250,255,255) 100%);
+    background: radial-gradient(circle, rgba(25,155,250,1,0.1) 50%, rgba(250,255,255,0.1) 100%);
     box-shadow: 0rem 0rem 50px rgb(2, 255, 242);
 }
 #Sun3{
     background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 30%, rgb(179, 255, 0) 100%);
-    box-shadow: 0rem 0rem 50px rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(25,155,250,1,0.1) 50%, rgba(250,255,255,0.1) 100%);
+    box-shadow: 0rem 0rem 50px rgb(2, 255, 86);
 }
 #Sun4{
-    background: rgb(209, 209, 209);
-    background: radial-gradient(circle, rgb(238, 69, 69) 30%, rgb(251, 255, 0) 100%);
-    box-shadow: 0rem 0rem 50px rgba(252, 235, 3, 0.56);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(25,155,250,1,0.1) 50%, rgba(250,255,255,0.1) 100%);
+    box-shadow: 0rem 0rem 50px rgb(200, 255, 2);
 }
 .smallPlanet {
     width: 100%;
