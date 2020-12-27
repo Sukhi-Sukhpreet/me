@@ -1,0 +1,162 @@
+body {
+    background-color: #333;
+}
+.Content{
+    align-items: flex-start;
+}
+@font-face {
+    font-family: 'oswald';
+    src: url('ONEDAY/ONEDAY.ttf');
+}
+.Heading {
+    font-size: 1000%;
+    position: absolute;
+    color: aqua;
+    top: -5vh;
+    left: 0%;
+    grid-row: 1;
+    font-family: 'oswald';
+    font-weight: 900;
+}
+.para-1{
+    position: absolute;
+    font-size: 3rem;
+    max-width: 400px;
+    left: 15%;
+    top: 32vh;
+    color: lavenderblush;
+    font-family: 'Fredoka One', cursive;
+}
+
+.para-2{
+    position: absolute;
+    font-size: 3rem;
+    max-width: 1000px;
+    left: 61%;
+    top: 160vh;
+    color: lavenderblush;
+    font-family: 'Fredoka One', cursive;
+}
+.para-3{
+    position: absolute;
+    font-size: 3rem;
+    max-width: 400px;
+    left: 11%;
+    top: 280vh;
+    color: lavenderblush;
+    font-family: 'Fredoka One', cursive;
+}
+.para-4{
+    position: absolute;
+    font-size: 3rem;
+    max-width: 400px;
+    left: 21%;
+    top: 400vh;
+    color: lavenderblush;
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 20%;
+}
+.planetPosition {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+#Solar1{
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+}
+#Solar2{
+    top: 180%;
+    left: 30%;
+    transform: translate(-150%, -20%);
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+}
+#Solar3{
+    top: 280%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+}
+#Solar4{
+    top: 120%;
+    left: 80%;
+    transform: translate(-150%, -20%);
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+}
+.mainPlanet {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+#Sun1{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(0,255,255) 100%);
+    box-shadow: 0rem 0rem 50px rgb(255, 255, 255);
+}
+#Sun2{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(25,155,250,1) 50%, rgba(250,255,255) 100%);
+    box-shadow: 0rem 0rem 50px rgb(2, 255, 242);
+}
+#Sun3{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 30%, rgb(179, 255, 0) 100%);
+    box-shadow: 0rem 0rem 50px rgb(255, 255, 255);
+}
+#Sun4{
+    background: rgb(209, 209, 209);
+    background: radial-gradient(circle, rgb(238, 69, 69) 30%, rgb(251, 255, 0) 100%);
+    box-shadow: 0rem 0rem 50px rgba(252, 235, 3, 0.56);
+}
+.smallPlanet {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#Earth1 svg {
+    top: -120%;
+    position: absolute;
+}
+#Earth1 {
+    animation: spin 4s linear 0s infinite;
+}
+#Earth2 svg {
+    top: -100%;
+    position: absolute;
+}
+#Earth2 {
+    animation: spin 6s linear 0s infinite;
+}
+#Earth3 svg {
+    top: -120%;
+    position: absolute;
+}
+#Earth3 {
+    animation: spin 4s linear 0s infinite;
+}
+#Earth4 svg {
+    top: -120%;
+    position: absolute;
+}
+#Earth4 {
+    animation: spin 12s linear 0s infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
