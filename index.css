@@ -1,0 +1,598 @@
+
+body {
+  background: #12FAFF;
+  user-select:none;
+}
+
+
+.section-header {
+  display: flex;
+  z-index: 0;
+  flex-direction: column;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none;
+}
+
+body #header {
+    height: 940px;
+    position: relative;
+    color: #fff;
+    font-size: 17px;
+    -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+}
+.back1ground {
+    position: absolute;
+    top: -20vh;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 10vh);
+    background: linear-gradient(135deg, rgb(168, 25, 210), rgb(120, 255, 255));
+    transform: skewY(-5deg);
+    box-shadow: 0 0 50px rgba(60,117,162,.4);
+}
+#Main{
+  position: absolute;
+  background: linear-gradient(to right, rgb(4, 143, 148),rgb(255, 1, 242)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+  width: 90px;
+  padding: 10px;
+  border-radius: 20px;
+  top: 20%;
+  left: 86%;
+  box-shadow: 1px -1px 0.2rem 0.7rem #f1ffF0;
+  color:#ffff;
+  font-family: 'Antic Slab', serif;
+  
+}
+
+#background-title {
+    position: absolute;
+    top:10%;
+    left: 15%;
+    font-size: 700%;
+    user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+}
+#background-content {
+    position: absolute;
+    width: 50%;
+    top:50%;
+    left: 15%;
+    font-size: 300%;
+    transform: skewY(-5deg);
+    user-select:none;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+}
+#Box {
+  transform: skewY(-7deg);
+  box-shadow: 0 0 50px rgba(60,117,162,.4);
+  padding: 10px 0px 10px;
+  position: absolute;
+  left: 72.5%;
+  top: 45%;
+  height: 28%;
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-left: 6px solid slateblue;
+  border-right: 2px solid springgreen;
+  border-radius: 4%;
+  background-color: rgba(0, 138, 252, 0.377);
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+}
+.Card {
+  font-size: 25.5px;
+  padding: 0px 0px 30px 20px;
+  margin:  10px 0px 20px 20px;
+  width: 75%;
+  height: 18%;
+  background-color: #12334F;
+  color: #24F8B0;
+  border-radius: 20vw;
+  font-family: "Courier New", monospace;
+  transition: 0.2s;
+  
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+}
+.Card :first-child {
+    padding-top: -0.5%;
+}
+.Card:hover{
+  transform: translateY(-0.7%);
+  color: aqua;
+  background-color: azure;
+}
+
+.Card:hover~.Card {
+  transform: translateY(7%);
+}
+
+.Card:not(:last-child) {
+  margin-bottom: -3%;
+}
+
+#Box::-webkit-scrollbar{
+  height: 10px;
+  width: 10px;
+}
+#Box::-webkit-scrollbar-thumb{
+  background: #16bef1;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 5px  #16feff;
+}
+#Box .Card:hover {
+  transform: translateY(-1rem);
+}
+
+.back2ground {
+    position: absolute;
+    top: -20vh;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 40vh);
+    /* background: linear-gradient(135deg, rgba(55, 255, 55, 0.8), rgb(100, 200, 70)); */
+    /* background:linear-gradient(135deg, rgba(255, 45, 222, 1), rgb(25, 255, 100));  */
+    background : linear-gradient(133deg,rgba(17, 17, 34, 0.966),rgba(34, 34, 51, 0.856),rgba(51, 51, 68, 0.822),rgba(68, 68, 85, 0.856),#778899);
+    transform: skewY(-5deg);
+    box-shadow: 0 0 50px rgba(60,117,162,.4);
+    opacity: 100%;
+}
+#back2ground-title {
+    position: absolute;
+    top:0%;
+    left: 5%;
+    font-size: 1000%;
+    font-family: monospace;
+    -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+  z-index: 2;
+}
+.back2ground-content {
+  position: relative;
+  top: 70%;
+  font-size: 70%;
+  font-family: cursive;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+  z-index: 1;  
+}
+.Planet {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border-radius: 50%;
+  opacity: 20%;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none;
+  z-index: 0; 
+}
+#TheoryBox {
+  transform: skewY(-7deg);
+  box-shadow: 0 0 50px rgba(60,117,162,.4);
+  padding: 10px 0px 10px;
+  position: absolute;
+  left: 61%;
+  top: 30%;
+  height: 37%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-left: 6px solid orange;
+  border-right: 2px solid springgreen;
+  border-radius: 4%;
+  background: linear-gradient(to right,  #a8ffee, #f15eF0);
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+}
+.Theory-Card {
+  font-size: 25.5px;
+  padding: 0px 0px 5% 2%;
+  margin:  10% 0px 6% 10%;
+  width: 75%;
+  height: 18%;
+  color: #12334F;
+  background: linear-gradient(to right,  #FFAE62,#FF8473, #FFC25E);
+  border-radius: 20vw;
+  font-family: "Courier New", monospace;
+  transition: 0.2s;
+  -webkit-touch-callout:none; /* iOS Safari */
+  -webkit-user-select:none;   /* Chrome/Safari/Opera */
+  -khtml-user-select:none;    /* Konqueror */
+  -moz-user-select:none;      /* Firefox */
+  -ms-user-select:none;       /* Internet Explorer/Edge */
+  user-select:none; 
+}
+.Theory-Card :first-child {
+  padding-top: -0.5%;
+}
+.Theory-Card:hover{
+transform: translateY(-0.7%);
+color: aqua;
+background: rgb(56, 141, 141);
+}
+
+.Theory-Card:hover~.Theory-Card {
+transform: translateY(7%);
+}
+
+.Theory-Card:not(:last-child) {
+margin-bottom: -3%;
+}
+
+#TheoryBox::-webkit-scrollbar{
+height: 10px;
+width: 10px;
+}
+#TheoryBox::-webkit-scrollbar-thumb{
+background: #16bef1;
+border-radius: 10px;
+box-shadow: inset 5px 5px 5px  #16feff;
+}
+#TheoryBox .Theory-Card:hover {
+transform: translateY(-1rem);
+}
+
+.Theory-Card {
+  font-size: 25.5px;
+  padding: 0px 0px 5% 2%;
+  margin:  10% 0px 6% 10%;
+  width: 75%;
+  height: 18%;
+  border-radius: 30px;
+} 
+
+
+/* Footer */
+#footer {
+  position: relative;
+  padding: 6em 0 4em 0 ;
+  background-color: #1d242a;
+  text-align: center;
+  user-select:none;
+}
+
+  #footer .icons {
+    font-size: 1.25em;
+  }
+
+    #footer .icons a {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+      #footer .icons a:hover {
+        color: #fff;
+      }
+
+  #footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8em;
+    letter-spacing: 0.225em;
+    list-style: none;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+    #footer .copyright li {
+      border-left: solid 1px rgba(255, 255, 255, 0.5);
+      display: inline-block;
+      line-height: 1em;
+      margin-left: 1em;
+      padding-left: 1em;
+    }
+
+      #footer .copyright li:first-child {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      #footer .copyright li a {
+        color: inherit;
+      }
+
+        #footer .copyright li a:hover {
+          color: #fff;
+        }
+
+      @media screen and (max-width: 480px) {
+
+      only   #footer .copyright li {
+          border: 0;
+          display: block;
+          line-height: 1.65em;
+          margin: 0;
+          padding: 0.5em 0;
+        }
+
+      }
+
+  @media screen and (max-width: 980px) {
+
+    #fonly ooter {
+      padding: 4em 3em 2em 3em ;
+    }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+    #fonly ooter {
+      padding: 3em 2em 1em 2em ;
+    }
+
+  }
+  
+  
+  @media only screen and (max-width:900px){
+    .back1ground {
+      top:-2%;
+      overflow-y: hidden;
+    }
+    
+    #background-title {
+      font-size: 400%;
+      top: 3%;
+      left: 10%;
+    }
+    #Main{
+      top: 5%;
+      left: 80%;
+    }
+    
+    #background-content {
+    font-size: 300%;
+    top: 73%;
+    width: 100%;
+    left: 10%;
+    }
+    
+    #Box {
+      top: 30%;
+      left: 53%;
+      height: 40%;
+      width: 40%;
+      border-radius: 30px;
+    }
+    
+    .Card {
+      border-radius: 45px;
+      max-height: 15%;
+    }
+    .back2ground {
+      top:0%;
+      overflow-y: hidden;
+    }
+    #back2ground-title {
+      font-size: 300%;
+    }
+    
+    #back2ground-content {
+    font-size: 200%;
+    top: 73%;
+    width: 100%;
+    left: 0%;
+    }
+    
+    #TheoryBox {
+      top: 25%;
+      left: 43%;
+      height: 40%;
+      width: 50%;
+      border-radius: 30px;
+    }
+    
+    .Theory-Card {
+      border-radius: 30px;
+    } 
+  
+  }
+  @media only screen and (max-width:700px){
+    .back1ground {
+      top:10%;
+      overflow-y: hidden;
+    }
+    
+    #background-title {
+      font-size: 400%;
+      top: -5%;
+      left: 10%;
+    }
+    
+    #background-title:hover {
+      color: blueviolet;
+    }
+    
+    #background-content {
+    font-size: 200%;
+    top: 73%;
+    width: 100%;
+    left: 0%;
+    }
+    
+    #Box {
+      top: 30%;
+      left: 43%;
+      height: 40%;
+      width: 50%;
+      border-radius: 30px;
+    }
+    
+    .Card {
+      border-radius: 30px;
+    }
+    .back2ground {
+      top:0%;
+      overflow-y: hidden;
+    }
+    #back2ground-title {
+      font-size: 300%;
+    }
+    
+    #back2ground-content {
+    font-size: 200%;
+    top: 73%;
+    width: 100%;
+    left: 0%;
+    }
+    
+    #TheoryBox {
+      top: 25%;
+      left: 43%;
+      height: 40%;
+      width: 50%;
+      border-radius: 30px;
+    }
+    
+    .Theory-Card {
+      border-radius: 30px;
+    } 
+  
+  }
+@media only screen and (max-width:500px){
+  .back1ground {
+    top:-10%;
+    overflow-y: hidden;
+  }
+  #background-title {
+    font-size: 300%;
+    top:10%;
+  }
+  #background-content {
+  font-size: 200%;
+  top: 73%;
+  width: 100%;
+  left: 0%;
+  }
+  #Box {
+    top: 30%;
+    left: 43%;
+    height: 40%;
+    width: 50%;
+    border-radius: 30px;
+  }
+  .Card {
+    border-radius: 30px;
+  }
+  .back2ground {
+    top:0%;
+    overflow-y: hidden;
+  }
+  #back2ground-title {
+    font-size: 300%;
+  }
+  #back2ground-content {
+  font-size: 200%;
+  top: 73%;
+  width: 100%;
+  left: 0%;
+  }
+  #TheoryBox {
+    top: 25%;
+    left: 43%;
+    height: 40%;
+    width: 50%;
+    border-radius: 30px;
+  }
+  .Theory-Card {
+    border-radius: 30px;
+  } 
+
+}
+
+@media only screen and (max-width:300px){
+  .back1ground {
+    top:-10%;
+    overflow-y: hidden;
+  }
+  #background-title {
+    font-size: 300%;
+    top:10%;
+  }
+  #background-content {
+  font-size: 200%;
+  top: 73%;
+  width: 100%;
+  left: 0%;
+  }
+  #Box {
+    top: 37%;
+    left: 23%;
+    height: 35%;
+    width: 75%;
+    border-radius: 30px;
+  }
+  .Card {
+    border-radius: 30px;
+  }
+  .back2ground {
+    top:0%;
+    overflow-y: hidden;
+  }
+  #back2ground-title {
+    font-size: 300%;
+  }
+  #back2ground-content {
+  font-size: 200%;
+  top: 73%;
+  width: 100%;
+  left: 0%;
+  }
+  #TheoryBox {
+    top: 32%;
+    left: 23%;
+    height: 34%;
+    width: 75%;
+    border-radius: 30px;
+  }
+  .Theory-Card {
+    border-radius: 30px;
+  } 
+
+}
+

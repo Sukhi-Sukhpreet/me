@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(135deg,#0f34,#fd00);
+    background-repeat: no-repeat;
+}
+.Header {
+    font-size: 20vw;
+    color:#edf239;
+    font-weight: bolder;
+    font-family: 'Caveat', cursive;
+}
+.Jai{
+    color: rgb(0, 52, 131);
+    margin-left: 50%;
+    font-size: 10%;
+    font-family: 'Orbitron', sans-serif;
+}
+.answer{
+    position: relative;
+    top: -10%;
+    color: black;
+    background-color: aquamarine;
+}
+.Explain{
+    display: grid;
+    background: linear-gradient(90deg,rgba(140, 122, 218, 0.678),rgb(9, 122, 150));
+    border-radius: 30px;
+    color: cornsilk;
+    grid-template-areas:
+    ". . A .";
+}
+.Explain-answer{
+    position: relative;
+    margin-top: 1%;
+    gap: 1rem;
+    background: linear-gradient(135deg,#00ff80,#00aeff);
+    border-radius: 29px;
+}
+
+#Answer{
+    font-size: 15vw;
+    margin-left: 5%;
+}
+
+.AnswerHeading{
+    position: relative;
+    margin-top: 0%;
+    font-size: 10vw;
+    color: bisque;
+}
+
+.Matter{
+    position: relative;
+    border-top: 1px solid cadetblue;
+    margin-top: -5%;
+    font-size: 7vw;
+    color: #0f34e0f1;
+}
+
+#Poem {
+    background:linear-gradient(135deg,pink 10%,rgb(206, 18, 243) 30%,rgb(32, 199, 255));
+    border-radius: 50px ;
+}
+.Poem-heading{
+    padding-top: 10%;    
+    color: rgb(242, 255, 172);
+    font-size: 4vw;
+}
+.Poem-content{
+    color: firebrick;
+    font-size: 5vw;
+    font-family: 'Averia Sans Libre', cursive;
+    padding-bottom: 5vh;
+}
+.Poem-content-Heading{
+    font-size: 7vw;
+    color: blanchedalmond;
+    font-family: 'Tangerine', cursive;
+    margin-left: 10%;
+}
+
+.Poem-Container{
+    width: auto;
+    border-radius: 16px;
+}
