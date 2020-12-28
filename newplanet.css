@@ -2,92 +2,92 @@ body {
     background-color: #333;
 }
 .Content{
-    align-items: flex-start;
+    user-select: none;
+    -ms-user-select: none;
+    display: grid;
+    grid-template-areas: 
+    "Heading Heading . "
+    ". . ."
+    ". . . "
+    "para-1 . . "
+    ".  para-2 . "
+    "para-3 . . "
+    ". para-4 para-4 ";
 }
+@font-face {
+    font-family: 'oswald';
+    src: url('ONEDAY/ONEDAY.ttf');
+}
+
 .Heading {
-    font-size: 1000%;
-    position: absolute;
+    font-size: 1200%;
     color: aqua;
-    top: -9vh;
-    left: 0%;
-    grid-row: 1;
-    font-family: 'Fredoka One';
-    font-weight: 900;
+    font-family: 'oswald';
+    font-weight: 100;
+    grid-area: Heading;
 }
+
 .para-1{
-    position: absolute;
-    font-size: 3rem;
-    max-width: 400px;
-    left: 15%;
-    top: 32vh;
     color: lavenderblush;
     font-family: 'Fredoka One', cursive;
+    grid-area: para-1;
+    font-size: 300%;
+
 }
 
 .para-2{
-    position: absolute;
-    font-size: 3rem;
-    max-width: 1000px;
-    left: 61%;
-    top: 160vh;
     color: lavenderblush;
     font-family: 'Fredoka One', cursive;
+    grid-area: para-2;
+    font-size: 300%;
 }
 .para-3{
-    position: absolute;
-    font-size: 3rem;
-    max-width: 400px;
-    left: 11%;
-    top: 285vh;
     color: lavenderblush;
     font-family: 'Fredoka One', cursive;
+    grid-area: para-3;
+    font-size: 300%;
 }
 .para-4{
-    position: absolute;
-    font-size: 2.5rem;
-    max-width: 400px;
-    left: 21%;
-    top: 410vh;
     color: lavenderblush;
     font-family: 'Fredoka One', cursive;
-    padding-bottom: 20%;
+    grid-area: para-4;
+    font-size: 300%;
 }
 .planetPosition {
     position: absolute;
+    top: 40%;
+    left: 60%;
+    grid-template-areas: 
+    " . . . S1"
+    " . S2 . . "
+    "S3 . . . "
+    ". . . S4";
     justify-content: center;
     align-items: center;
 }
 #Solar1{
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
     display: flex;
     width: 10rem;
     height: 10rem;
+    grid-area: S1;
 }
 #Solar2{
-    top: 310vh;
-    left: 60%;
-    transform: translate(-150%, -20%);
     display: flex;
     width: 10rem;
     height: 10rem;
+    grid-area: S2;
 }
 #Solar3{
-    top: 280%;
-    left: 5%;
-    transform: translate(-50%, -50%);
     display: flex;
     width: 10rem;
     height: 10rem;
+    grid-area: S3;
 }
 #Solar4{
-    top: 120%;
-    left: 80%;
-    transform: translate(-150%, -20%);
     display: flex;
     width: 10rem;
     height: 10rem;
+    grid-area: S4;
 }
 .mainPlanet {
     position: absolute;
